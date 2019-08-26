@@ -2,7 +2,7 @@
 Plugins of this base class mimic the astropy FittableModel class structure. An activated fittable model would be usable for fitting 1-d spectra or 2-d images. Example: A 1-D Lorentzian model, usable for fitting SAXS spectra.
 See the Astropy API for a detailed explanation of the usage.
 ## Methods
-The plugin allows to implement the three following methods. While it is enough to implement 'evaluate' for fitting implementing the other methods aids the fitting algorithm.
+The plugin allows to implement the three following methods. While it is enough to implement '''evaluate''' for fitting implementing the other methods aids the fitting algorithm.
 ### evaluate
 A method, that allows evaluation of the model function
 ### fit_deriv
