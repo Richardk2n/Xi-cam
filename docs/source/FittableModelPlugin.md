@@ -10,11 +10,11 @@ A method, that returns the derivatives of the model function
 ### inverse
 A method returning the inverse of the model function
 ## Example Implementation
-An easy example of such a model would be a simple one dimensional gaussian. A valis implementation of which can be found below.
+An easy example of such a model would be a simple one dimensional gaussian. A valid implementation of which can be found below.
 ```python
 import numpy as np
 from astropy.modeling import Parameter
-from ..FittableModelPlugin import Fittable1DModelPlugin
+from xicam.plugins.FittableModelPlugin import Fittable1DModelPlugin
 
 class Gaussian1D(Fittable1DModelPlugin):
     amplitude = Parameter("amplitude")
